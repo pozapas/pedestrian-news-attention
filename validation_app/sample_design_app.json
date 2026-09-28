@@ -1,0 +1,34 @@
+{
+ "seed": 20260925,
+ "eligible_events": 12012,
+ "strata_pool": {
+  "S7_remainder": 4547,
+  "S6_hit_and_run": 3123,
+  "S4_older_victim": 1534,
+  "S5_charges_reported": 1519,
+  "S3_teen_victim": 513,
+  "S2_child_victim": 425,
+  "S1_multi_fatality": 351
+ },
+ "allocation": {
+  "S1_multi_fatality": 25,
+  "S2_child_victim": 25,
+  "S3_teen_victim": 20,
+  "S4_older_victim": 30,
+  "S5_charges_reported": 30,
+  "S6_hit_and_run": 25,
+  "S7_remainder": 25
+ },
+ "machine_positives": {
+  "multi_fatality": 25,
+  "child": 26,
+  "teen": 20,
+  "elderly": 30,
+  "female": 56,
+  "victim_named": 115,
+  "hit_run_flag": 88,
+  "charges_reported": 52,
+  "dark": 73
+ },
+ "excluded_round1_events": 409
+}

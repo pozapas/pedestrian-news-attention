@@ -1,0 +1,68 @@
+# TRB 2027 Crash-News shared figure style ("Nature style")
+# Imported by every figure script in both TRB-P and TRB-R.
+# Specs from 00_TRB2027_README.md section 2.
+
+# --- Fonts ---
+font.family: sans-serif
+font.sans-serif: Arial, Helvetica, DejaVu Sans
+font.size: 8
+axes.titlesize: 9
+axes.titleweight: bold
+axes.titlepad: 8.0
+axes.titlelocation: left
+axes.labelsize: 8
+axes.labelweight: bold
+axes.labelpad: 8.0
+xtick.labelsize: 7
+ytick.labelsize: 7
+legend.fontsize: 7
+figure.titlesize: 10
+
+# --- Font embedding (Step 7 audit requires embedded, not Type 3) ---
+pdf.fonttype: 42
+ps.fonttype: 42
+svg.fonttype: none
+
+# --- Spines: no top/right ---
+axes.spines.top: False
+axes.spines.right: False
+axes.spines.left: True
+axes.spines.bottom: True
+axes.edgecolor: 3B3B3B
+axes.linewidth: 0.8
+axes.labelcolor: 3B3B3B
+text.color: 3B3B3B
+xtick.color: 3B3B3B
+ytick.color: 3B3B3B
+
+# --- Grid: y only, light grey, thin ---
+axes.grid: True
+axes.grid.axis: y
+grid.color: E6E6E6
+grid.linewidth: 0.5
+grid.alpha: 1.0
+axes.axisbelow: True
+
+# --- Ticks: outward, short ---
+xtick.direction: out
+ytick.direction: out
+xtick.major.size: 2
+ytick.major.size: 2
+xtick.major.width: 0.8
+ytick.major.width: 0.8
+
+# --- Figure / saving ---
+figure.dpi: 150
+savefig.dpi: 600
+savefig.bbox: tight
+savefig.pad_inches: 0.02
+figure.facecolor: white
+axes.facecolor: white
+savefig.facecolor: white
+
+# --- Legend ---
+legend.frameon: False
+
+# --- Lines ---
+lines.linewidth: 1.4
+lines.markersize: 4

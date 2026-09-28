@@ -1,0 +1,56 @@
+{
+ "min_chars_usable": 200,
+ "articles_total": 18838,
+ "articles_usable": 18302,
+ "articles_below_threshold": 536,
+ "pct_below_threshold": 2.8453126658880987,
+ "median_text_length": 808.0,
+ "narrow": {
+  "themes": {
+   "Crosswalk": 13.687028740028412,
+   "Speed limit": 1.2621571412960333,
+   "Traffic signal": 1.2949404436673588,
+   "Street lighting": 0.7212326521691619,
+   "Stop or yield control": 0.404327395913015,
+   "Roadway design": 0.06010272101409682,
+   "Sidewalk": 4.010490656758824,
+   "Median or refuge": 0.054638837285542564
+  },
+  "any_pct": 19.041634794011582,
+  "none_pct": 80.95836520598841
+ },
+ "broad": {
+  "themes": {
+   "Crosswalk": 13.69795650748552,
+   "Speed limit": 1.573598513823626,
+   "Traffic signal": 1.404218118238444,
+   "Street lighting": 1.1856627690962735,
+   "Stop or yield control": 0.404327395913015,
+   "Roadway design": 0.404327395913015,
+   "Sidewalk": 4.010490656758824,
+   "Median or refuge": 1.7648344443230248
+  },
+  "any_pct": 21.057807889848103,
+  "none_pct": 78.9421921101519
+ },
+ "codebook_narrow": {
+  "Crosswalk": "\\bcross-?walks?\\b",
+  "Speed limit": "\\bspeed limit\\b|\\bposted speed\\b",
+  "Traffic signal": "\\btraffic (?:signal|light)s?\\b|\\bstop ?light\\b",
+  "Street lighting": "\\bstreet ?light\\w*\\b|\\bstreet ?lamp\\w*\\b",
+  "Stop or yield control": "\\bstop sign\\b|\\byield sign\\b",
+  "Roadway design": "\\broad(?:way)? design\\b|\\broad diet\\b|\\btraffic calming\\b",
+  "Sidewalk": "\\bsidewalks?\\b",
+  "Median or refuge": "\\bmedian (?:island|strip|barrier)\\b|\\brefuge island\\b"
+ },
+ "codebook_broad": {
+  "Crosswalk": "\\bcross-?walks?\\b|\\bzebra cross\\w*|\\bmarked crossing\\b|\\bunmarked crossing\\b",
+  "Speed limit": "\\bspeed limit\\b|\\bposted speed\\b|\\bmph zone\\b|\\bspeeding zone\\b",
+  "Traffic signal": "\\btraffic (?:signal|light)s?\\b|\\bstop ?light\\b|\\bsignali[sz]ed\\b|\\bpedestrian signal\\b",
+  "Street lighting": "\\bstreet ?light\\w*\\b|\\bstreet ?lamp\\w*\\b|\\bpoorly lit\\b|\\bunlit\\b|\\bno lighting\\b|\\bdark stretch\\b",
+  "Stop or yield control": "\\bstop sign\\b|\\byield sign\\b",
+  "Roadway design": "\\broad(?:way)? design\\b|\\broad diet\\b|\\btraffic calming\\b|\\blane width\\b|\\bdesign of the (?:road|street)\\b|\\bengineering\\b",
+  "Sidewalk": "\\bsidewalks?\\b",
+  "Median or refuge": "\\bmedian\\b|\\brefuge island\\b"
+ }
+}

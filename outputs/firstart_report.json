@@ -1,0 +1,53 @@
+{
+ "events": 12874,
+ "events_without_first_article": 0,
+ "victim named": {
+  "first_article_rate": 0.5207394749106726,
+  "event_level_rate": 0.5646263787478639,
+  "pp_change": -4.38869038371913
+ },
+ "hit-and-run": {
+  "first_article_rate": 0.4555693646108436,
+  "event_level_rate": 0.46333695821034643,
+  "pp_change": -0.7767593599502853
+ },
+ "female": {
+  "first_article_rate": 0.2779244989902128,
+  "event_level_rate": 0.289187509709492,
+  "pp_change": -1.1263010719279154
+ },
+ "multi-fatality": {
+  "first_article_rate": 0.03277924498990213,
+  "event_level_rate": 0.032934596861892186,
+  "pp_change": -0.015535187199005457
+ },
+ "charges": {
+  "first_article_rate": 0.18114028274040703,
+  "event_level_rate": 0.20273419294702502,
+  "pp_change": -2.1593910206617997
+ },
+ "dark": {
+  "first_article_rate": 0.43148982445238465,
+  "event_level_rate": 0.46038527264253537,
+  "pp_change": -2.8895448190150717
+ },
+ "age_missing_first_article": 0.37773807674382476,
+ "age_missing_event_level": 0.3400652477862358,
+ "named_by_tier": {
+  "1 article": {
+   "first_article": 0.5284677501788817,
+   "event_level": 0.5310232035163038,
+   "n": 9783
+  },
+  "2-3": {
+   "first_article": 0.4962962962962963,
+   "event_level": 0.6428849902534113,
+   "n": 2565
+  },
+  "4+": {
+   "first_article": 0.49619771863117873,
+   "event_level": 0.8079847908745247,
+   "n": 526
+  }
+ }
+}

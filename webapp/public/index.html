@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>News Coding Study</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="bar">
+    <div class="brand">News Coding Study</div>
+    <div class="progress" id="progress" hidden>
+      <span id="progressText"></span>
+      <div class="track"><div class="fill" id="progressFill"></div></div>
+    </div>
+    <button class="link" id="guideBtn" type="button" hidden>Coding guide</button>
+  </header>
+
+  <main id="app">
+    <section class="card narrow" id="loading"><p>Loading…</p></section>
+  </main>
+
+  <dialog id="guide">
+    <form method="dialog" class="guide">
+      <h2>Coding guide</h2>
+      <p class="rule">Code only what the article <strong>says</strong>. If it does not say it, choose <strong>Not stated</strong>. Do not guess, do not look the crash up, and do not use any AI tool.</p>
+      <h3>Hard cases</h3>
+      <table>
+        <tr><th>Situation</th><th>What to choose</th></tr>
+        <tr><td>“A man in his 40s”, “an elderly woman”</td><td>Age: Not stated</td></tr>
+        <tr><td>A baby under one year old</td><td>Age: 0</td></tr>
+        <tr><td>Several pedestrians died</td><td>Age of the youngest; gender Mixed if they differ</td></tr>
+        <tr><td>“Police are searching for the vehicle”</td><td>Driver left the scene: Yes</td></tr>
+        <tr><td>“No charges have been filed” or “charges are pending”</td><td>Charges: None filed or pending</td></tr>
+        <tr><td>Charges never mentioned</td><td>Charges: Not mentioned</td></tr>
+        <tr><td>“Just after 10 p.m.”, “on a poorly lit road”</td><td>Light: Dark</td></tr>
+        <tr><td>“Tuesday morning” with no clock time</td><td>Light: Not stated</td></tr>
+        <tr><td>A cyclist was killed</td><td>First question: No</td></tr>
+        <tr><td>Headline only, stub, or unrelated article</td><td>First question: No, and say so in the note</td></tr>
+        <tr><td>Several crashes in one article</td><td>Code the crash in the headline or first paragraph</td></tr>
+        <tr><td>Only a first name hints at gender</td><td>Gender: Not stated</td></tr>
+        <tr><td>Two ages given for the same person</td><td>Use the one in the main text, and add a note</td></tr>
+        <tr><td>You genuinely cannot decide</td><td>Not stated, with a short note</td></tr>
+      </table>
+      <p>Some articles contain page code or repeated text from the website. Ignore it and read the story.</p>
+      <div class="actions"><button class="primary">Close</button></div>
+    </form>
+  </dialog>
+
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
