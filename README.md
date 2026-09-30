@@ -1,8 +1,7 @@
 # Whose Deaths Dominate the News? Replication materials
 
-Code and data for *Whose Deaths Dominate the News? A National Analysis of Coverage
-Intensity, Follow-Up, and Attention Inequality Across a Decade of U.S. Pedestrian
-Fatalities* (Amir Rafe and Subasish Das, Texas State University).
+Code and data for *Whose Deaths Dominate the News? Unequal Coverage of U.S. Pedestrian
+Fatalities, 2016-2025* (Amir Rafe and Subasish Das, Texas State University).
 
 The study models how news attention is distributed across 12,874 news-derived
 pedestrian fatal crash events in the United States from 2016 through 2025, linked to
